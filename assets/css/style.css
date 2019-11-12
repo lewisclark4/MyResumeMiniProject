@@ -82,7 +82,7 @@ h1,h2,h3,h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 ;
     float: none;
 }
 
@@ -100,7 +100,7 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .logo{
@@ -203,6 +203,7 @@ header {
 
 .personal-info-item {
     margin-bottom: 20px;
+    margin-left: 20px;
     display: block;
     clear: both;
 }
@@ -257,7 +258,12 @@ header {
 /*-----------------------------------Work History */
 .history-heading {
     color: #fafafa;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
 
 .timeline-item {
@@ -265,6 +271,8 @@ header {
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
+    margin-left: 15px;
+    
 }
 
 .timeline-item p {
