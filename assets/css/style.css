@@ -31,7 +31,30 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+    background-color: #9b59b6
+}
 
+
+.progress-bar-html {
+    background-color:  #e67e22;
+}
+
+.progress-bar-css {
+    background-color: #9b59b6
+}
+
+.progress-bar-javascript { 
+    background-color: #3498db
+}
+
+.progress-bar-python { 
+    background-color: #525252
+}
+
+.progress-bar-sql {
+    background-color: red
+}
 /*-----------------------------------Special paddings/margins/text */
 
 h1,h2,h3,h4 {
@@ -63,6 +86,8 @@ h1,h2,h3,h4 {
     float: none;
 }
 
+
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -217,10 +242,6 @@ header {
     margin-bottom: 5px;
 }
 
-.progress-bar{
-    background-color:  #e67e22;
-}
-
 .progress-type {
     position: absolute;
     left: 0px;
@@ -230,9 +251,15 @@ header {
     background-color: rgba(25,25,25,0.2);
 }
 
+.progress-section {
+    margin: 40px
+}
 
-
-
+/*-----------------------------------Work History */
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
 
 /*-----------------------------------Footer */
 
@@ -290,3 +317,6 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+
+
